@@ -61,6 +61,6 @@ public class VectorGenerator : MonoBehaviour
 
 
 
-        Debug.Log("Button Pressed");
+        //Debug.Log("Button Pressed");
     }
 }
