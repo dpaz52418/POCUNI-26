@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -802,7 +802,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: c3aeaf93f4f43a844bd93962592ca118, type: 3}
   m_Color: {r: 1, g: 0.48584908, b: 0.48584908, a: 1}
   m_FlipX: 0
@@ -5807,7 +5807,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: ed30f196f219b8c4d94d6f48c2b5ce90, type: 3}
   m_Color: {r: 1, g: 0.5235849, b: 0.5235849, a: 1}
   m_FlipX: 0
@@ -5985,13 +5985,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1364623015}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 1364623020}
+        m_TargetAssemblyTypeName: VectorGenerator, Assembly-CSharp
+        m_MethodName: AwesomeButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -6048,14 +6048,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
-  - {r: 0, g: 0, b: 0, a: 0}
-  - {r: 0, g: 0, b: 0, a: 0}
-  fronts: []
-  backs: []
-  middles: []
+  - {r: 1, g: 0.5330188, b: 0.5330188, a: 1}
+  - {r: 1, g: 0.80322164, b: 0.5283019, a: 1}
+  - {r: 1, g: 0.9924411, b: 0.5294118, a: 1}
+  - {r: 0.75395733, g: 1, b: 0.5294118, a: 1}
+  - {r: 0.5294118, g: 0.9942403, b: 1, a: 1}
+  - {r: 0.5294118, g: 0.6802209, b: 1, a: 1}
+  - {r: 0.6064561, g: 0.5294118, b: 1, a: 1}
+  - {r: 0.86383575, g: 0.5294118, b: 1, a: 1}
+  - {r: 1, g: 0.5294118, b: 0.8774506, a: 1}
+  - {r: 0.2783019, g: 0.2783019, b: 0.2783019, a: 1}
+  fronts:
+  - {fileID: 21300000, guid: a12ad4fde2282bf4c8ae11642bb5d82f, type: 3}
+  - {fileID: 21300000, guid: 5a98ce85ab8043f4c93a015ab2d7d0f1, type: 3}
+  - {fileID: 21300000, guid: b305942f44afdab4c8c299e46be355e9, type: 3}
+  - {fileID: 21300000, guid: 04f64f3696d948c42b6358d3ebf9ef43, type: 3}
+  - {fileID: 21300000, guid: bbfdfa82e2d8baa4b947681e801724a5, type: 3}
+  backs:
+  - {fileID: 21300000, guid: 865a88f738128204a8c62f3588553b38, type: 3}
+  - {fileID: 21300000, guid: 8365fc90b7a88eb4a843b5095ecb2223, type: 3}
+  - {fileID: 21300000, guid: 9fa96634e9ca8cd42bf8276552791edc, type: 3}
+  - {fileID: 21300000, guid: 4546b711c257aa245834c4328bdabe39, type: 3}
+  - {fileID: 21300000, guid: ed30f196f219b8c4d94d6f48c2b5ce90, type: 3}
+  middles:
+  - {fileID: 21300000, guid: 0f21b5763d2fcb84a9c8038d2374511f, type: 3}
+  - {fileID: 21300000, guid: d63d9c35c77137d47b6ad957dd3eb8c7, type: 3}
+  - {fileID: 21300000, guid: 7821eab5b4297c5448e345e80a20f328, type: 3}
+  - {fileID: 21300000, guid: 53125b9e51915c040af93e25e3d63d1c, type: 3}
+  - {fileID: 21300000, guid: c3aeaf93f4f43a844bd93962592ca118, type: 3}
   frameObject: {fileID: 1945065734}
-  backgroundRenderer: {fileID: 0}
-  children: []
+  backgroundRenderer: {fileID: 1945065735}
+  children:
+  - {fileID: 1103215612}
+  - {fileID: 552780289}
+  - {fileID: 1383483303}
 --- !u!1 &1367850920
 GameObject:
   m_ObjectHideFlags: 0
@@ -6230,7 +6256,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: bbfdfa82e2d8baa4b947681e801724a5, type: 3}
   m_Color: {r: 1, g: 0.514151, b: 0.514151, a: 1}
   m_FlipX: 0
@@ -6567,7 +6593,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c5ded4883b2380748a6e12487d6e0fc4, type: 3}
-  m_Color: {r: 1, g: 0.495283, b: 0.495283, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

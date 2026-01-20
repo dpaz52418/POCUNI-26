@@ -11,7 +11,7 @@ public class VectorGenerator : MonoBehaviour
 
     public GameObject frameObject; // the "Frame" object to turn on
     public SpriteRenderer backgroundRenderer; // background color
-    public SpriteRenderer[] children; // back, middle, front
+    public SpriteRenderer[] children; // back = 0, middle = 1, front = 2
     
     Color selectedColor; // used to tint the background and layers
     Sprite selectedFront;
@@ -25,8 +25,6 @@ public class VectorGenerator : MonoBehaviour
         // Turn on "Frame" object
         //frameObject.SetActive(true);
         
-
-
         /*
         selectedColor = colors[Random.Range(0, colors.Length)];
         selectedFront = fronts[Random.Range(0, fronts.Length)];
@@ -45,6 +43,24 @@ public class VectorGenerator : MonoBehaviour
     public void AwesomeButton()
     {
         frameObject.SetActive(true);
+
+        selectedColor = colors[Random.Range(0, colors.Length)];
+        selectedFront = fronts[Random.Range(0, fronts.Length)];
+        selectedMiddle = middles[Random.Range(0, middles.Length)];
+        selectedBack = backs[Random.Range(0, backs.Length)];
+
+        backgroundRenderer.color = selectedColor;
+        children[0].sprite = selectedBack;
+        children[1].sprite = selectedMiddle;
+        children[2].sprite = selectedFront;
+
+        // Set Color of Children
+        children[0].color = selectedColor;
+        children[1].color = selectedColor;
+        children[2].color = selectedColor;
+
+
+
         Debug.Log("Button Pressed");
     }
 }
