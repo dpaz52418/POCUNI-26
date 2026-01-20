@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 42f6ded9c7be2db4c90d9d94e58addd1
+guid: b373485618b18a141ad931025d22ae11
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: POCUNI MULT_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3840
+        height: 2160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1919.9999, y: 1080}
+        - {x: -1919.9999, y: -1080}
+        - {x: 1919.9999, y: -1080}
+        - {x: 1919.9999, y: 1080}
+      physicsShape: []
+      tessellationDetail: 0.37
+      bones: []
+      spriteID: 18e745fa65d8e7a49bda60e8258362b2
+      internalID: -906355140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +144,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      POCUNI MULT_0: -906355140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
